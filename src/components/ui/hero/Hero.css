@@ -1,0 +1,81 @@
+.hero__container{
+    
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+    padding-top: 68px;
+    padding-left: 40px;
+   
+}
+
+
+.hero__left-site-text1{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    margin-bottom: 7px;
+}
+
+.hero__left-site h2 {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    margin-bottom: 5px;
+}
+
+.hero__left-site h2 span {
+    color: #46A358;
+}
+
+.hero__left-site-text2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    color: #727272;
+    width: 557px;
+    margin-bottom: 44px!important;
+}
+
+.hero__left-site-btn{
+    border: none;
+    padding: 11px 27px;
+    background: #46A358;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__right-site{
+    position: relative;
+}
+
+.hero__right-site-img2{
+    position: absolute;
+    bottom: 41px;
+    left: 35px;
+}
+
+.carousel-control-prev-icon {
+    display: none !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #46A358 !important;
+    width: 8px !important;
+    height: 8px !important;
+    padding:0px !important;
+    border-radius: 50%;
+    
+}

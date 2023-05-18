@@ -1,0 +1,32 @@
+
+.category__title{
+    margin-bottom: 17px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.category__list {
+    padding-left: 12px;
+    padding: 10px;
+    
+}
+
+.category__item + .category__item {
+    padding-top: 4px;
+}
+
+.category__item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    color: #3D3D3D;
+    cursor: pointer;
+}
+
+.active {
+    color: #46A358;
+}
